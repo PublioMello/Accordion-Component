@@ -21,9 +21,11 @@ const Header = () => {
     <div>
       <div className="header__list">
         <div className="header__list-left">
-          <FaGithub />
-          <p>/</p>
-          <h2>Resources</h2>
+          <div className="header__list-left-title">
+            <FaGithub className="header__list-left-icon" />
+            <p>/</p>
+            <h2>Resources</h2>
+          </div>
           <p>Why GitHub</p>
           <p>Topics</p>
           <p>Learn</p>
