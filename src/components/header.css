@@ -1,0 +1,61 @@
+* {
+  gap: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefefe;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-bottom: 2px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.header__list-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.header__list-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__list-right button {
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header__list-right-search {
+  padding: 10px 10px;
+}
+
+.search_enterprise {
+  background-color: rgba(0, 0, 0, 0.812);
+  color: #ccc;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.search_contact {
+  background-color: rgba(242, 236, 236, 0.888);
+  color: rgba(0, 0, 0, 0.812);
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header__list-right button:hover {
+  transform: translateY(-3px);
+}
