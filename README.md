@@ -1,16 +1,41 @@
-# React + Vite
+React Accordion Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive accordion component built with React. This project was created as part of a challenge from React Practice to improve state management and component composition skills in React.
 
-Currently, two official plugins are available:
+Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This accordion allows users to:
 
-## React Compiler
+Expand and collapse sections
+Display content dynamically
+Improve UI organization and user experience
+Practice React state management with useState
+Features
+Clean and responsive UI
+Expand/collapse functionality
+Dynamic rendering using arrays and .map()
+Reusable component structure
+React Hooks (useState)
+Beginner-friendly project focused on React fundamentals
+Technologies Used
+React
+JavaScript (ES6+)
+CSS
+HTML5
+What I Learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Through this project, I practiced and improved:
 
-## Expanding the ESLint configuration
+Managing component state with React Hooks
+Conditional rendering
+Handling user interactions
+Component reusability
+Structuring UI logic in React
+Thinking about user experience and interaction design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+One interesting part of the project was deciding how the accordion behavior should work:
+
+Should multiple sections stay open?
+Or should opening one section close the others?
+
+These small UX decisions made the project more realistic and helped me think beyond just functionality.
